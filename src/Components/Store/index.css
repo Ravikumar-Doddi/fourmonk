@@ -1,0 +1,299 @@
+.universal-font{
+    font-family: Pathway Extreme;
+}
+.storie{
+    font-size: 26px;
+    font-weight: 600;
+}
+.modelView{
+    background-color: rgba(244, 244, 244, 1);
+}
+.color{
+  border-radius: 50%;
+  width: 30px; /* Adjust the width and height as needed */
+  height: 30px;
+  background-color: rgba(160, 202, 187, 1);
+}
+.new-delhi{
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 40px;
+}
+.ex-showroom{
+    font-size: 14px;
+
+}
+.rate{
+    font-size: 30px;
+    font-weight: 600;
+}
+.rate2{
+    font-size: 26px;
+    font-weight: 500;
+}
+.full-width-col{
+    padding: 0px;
+    margin: 0px;
+}
+.scooty-img2{
+    height: 150px;
+    width: 150px;
+}
+.storie{
+    font-size: 24px;
+    font-weight: 600;
+}
+.storie2{
+    font-size: 16px;
+}
+.top-cont{
+    padding-left: 8% !important;
+}
+.footer-head {
+    font-size: 50px;
+    color: rgba(255, 255, 255, 1);
+  }
+
+.incl{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 1);
+}
+.model{
+    font-size: 14px;
+    font-weight: 600;
+}
+.model2{
+    font-size: 14px;
+    font-weight: 600;
+    color: gray;
+}
+.choose{
+    font-size: 28px;
+    font-weight: 600;
+}
+.picked-color {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+  }
+.selected-gray {
+    background-color: rgba(160, 202, 187, 1)!important;
+}
+.selected-blue {
+  background-color: rgba(112, 116, 133, 1);
+}
+.selected-dark-blue {
+  background-color: rgba(35, 58, 120, 1);
+}
+.selected-sky-blue {
+  background-color: rgba(147, 212, 222, 1);
+}
+.selected-light-sky-blue {
+  background-color: rgba(197, 219, 244, 1);
+}
+.selected-red {
+  background-color: rgba(180, 32, 37, 1);
+}
+.selected-white {
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid gray;
+}
+.selected-yellow {
+  background-color: rgba(245, 210, 102, 1);
+}
+.confirm-btn {
+    background-color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+    height: 25px;
+    padding: 35px;
+    color: #fff;
+  }
+  .footer-view {
+    background-color: rgba(0, 0, 0, 1);
+  }
+  .sub-btn {
+    background-color: rgba(228, 228, 228, 1);
+    border: none;
+    width: 30%;
+  }
+  .input-el {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    outline: none;
+    width: 70%;
+  }
+  .input-cont {
+    width: 45%;
+  }
+  .list-cont {
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  .list-child {
+    font-family: Pathway Extreme;
+    color: rgba(228, 228, 288, 1);
+    margin-bottom: 10px;
+  }
+  .adress {
+    color: rgba(228, 228, 228, 1);
+    font-size: 13px;
+  }
+.icons{
+    color: rgba(228, 228, 228, 1);
+}
+.privacy-policy {
+    font-family: Pathway Extreme;
+    font-size: 13px;
+    font-weight: 600;
+}
+.footer{
+    padding-left: 8%;
+    padding-right: 25px;
+}
+.check-icon{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+  @media (max-width: 412px) {
+    .ex-showroom{
+        font-size: 10px;
+    }
+    .check-icon{
+        margin-right: 13px;
+    }
+    .storie{
+        font-size: 19px;
+    }
+    .storie2{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .incl{
+        font-size: 10px !important;
+    }
+    .new-delhi{
+        font-size: 10px !important;
+        margin-right: 0px;
+    }
+    .rate{
+        font-size: 20px;
+    }
+    .rate2{
+        font-size: 20px;
+    }
+    .rupee-icon{
+        height: 17px;
+        width: 17px;
+    }
+    .scooty-img{
+        padding: 30px;
+    }
+    .model{
+        font-size: 11px !important;
+    }
+    .model2{
+        font-size: 11px !important;
+    }
+    .choose{
+        font-size: 22px;
+    }
+    .picked-color {
+        height: 24px !important;
+        width: 24px !important;
+      }
+      .top-cont{
+        padding-left: 3% !important;
+    }
+    .footer-head {
+        font-size: 30px;
+      }
+      .input-cont {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+      .sub-btn {
+        width: 35%;
+      }
+      .input-el {
+        width: 65%;
+      }
+      .footer{
+        padding-left: 0%;
+        padding-right: 0px;
+    }
+    
+  }
+  
+@media (min-width: 413px) and (max-width: 530px) {
+    .ex-showroom{
+        font-size: 12px;
+    }
+    .incl{
+        font-size: 12px !important;
+    }
+    .new-delhi{
+        font-size: 10px !important;
+        margin-right: 20px;
+    }
+    .rate{
+        font-size: 20px;
+    }
+    .rate2{
+        font-size: 20px;
+    }
+    .rupee-icon{
+        height: 19px;
+        width: 19px;
+    }
+    .scooty-img{
+        padding: 30px;
+    }
+    .model{
+        font-size: 12px !important;
+    }
+    .model2{
+        font-size: 12px !important;
+    }
+    .choose{
+        font-size: 22px;
+    }
+    .top-cont{
+        padding-left: 3% !important;
+    }
+    .footer-head {
+        font-size: 30px;
+      }
+      .input-cont {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+      .sub-btn {
+        width: 35%;
+      }
+      .input-el {
+        width: 65%;
+      }
+      .footer{
+        padding-left: 0%;
+        padding-right: 0px;
+    }
+  }
+  @media (min-width: 530px) and (max-width: 768px) {
+    .top-cont{
+        padding-left: 3% !important;
+    }
+    .footer-head {
+        font-size: 30px;
+      }
+      .input-cont {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+      .sub-btn {
+        width: 35%;
+      }
+      .input-el {
+        width: 65%;
+      }
+}

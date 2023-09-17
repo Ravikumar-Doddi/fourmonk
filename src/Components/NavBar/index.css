@@ -1,0 +1,23 @@
+/* #mainNav{
+    background-color: rgba(0, 0, 0, 0.8);
+} */
+
+.main-nav{
+    background-color: rgba(0, 0, 0, 0.8);
+    font-family: Pathway Extreme;
+    color: rgba(228, 228, 228, 1) !important;
+}
+.nav-link{
+    color:rgba(228, 228, 228, 1) !important;
+}
+.new {
+    background-color: rgba(250, 255, 0, 1);
+    color: black;
+    font-size: 10px;
+    padding: 2px;
+  }
+.hambargor{
+    color: rgba(228, 228, 228, 1);
+    border: 0px;
+    outline: none;
+}
