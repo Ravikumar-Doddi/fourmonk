@@ -5,8 +5,9 @@
     font-size: 26px;
     font-weight: 600;
 }
-.modelView{
+.model-view{
     background-color: rgba(244, 244, 244, 1);
+    
 }
 .color{
   border-radius: 50%;
@@ -155,7 +156,7 @@
     margin-right: 20px;
     margin-bottom: 20px;
 }
-  @media (max-width: 412px) {
+  @media (max-width: 415px) {
     .ex-showroom{
         font-size: 10px;
     }
@@ -177,7 +178,7 @@
         margin-right: 0px;
     }
     .rate{
-        font-size: 20px;
+        font-size: 23px;
     }
     .rate2{
         font-size: 20px;
@@ -203,7 +204,7 @@
         width: 24px !important;
       }
       .top-cont{
-        padding-left: 3% !important;
+        padding-left:4% !important;
     }
     .footer-head {
         font-size: 30px;
@@ -225,7 +226,7 @@
     
   }
   
-@media (min-width: 413px) and (max-width: 530px) {
+@media (min-width: 415px) and (max-width: 530px) {
     .ex-showroom{
         font-size: 12px;
     }
@@ -237,7 +238,7 @@
         margin-right: 20px;
     }
     .rate{
-        font-size: 20px;
+        font-size: 23px;
     }
     .rate2{
         font-size: 20px;
@@ -259,7 +260,7 @@
         font-size: 22px;
     }
     .top-cont{
-        padding-left: 3% !important;
+        padding-left: 4% !important;
     }
     .footer-head {
         font-size: 30px;
@@ -279,9 +280,14 @@
         padding-right: 0px;
     }
   }
+  @media (min-width: 530px) and (max-width: 580px){
+    .ex-showroom{
+      font-size: 12px;
+  }
+  }
   @media (min-width: 530px) and (max-width: 768px) {
     .top-cont{
-        padding-left: 3% !important;
+        padding: 8% !important;
     }
     .footer-head {
         font-size: 30px;
@@ -296,4 +302,25 @@
       .input-el {
         width: 65%;
       }
+      .model-view2{
+        padding: 8% !important;
+      }
+}
+@media (min-width: 766px) and (max-width: 980px) {
+  .ex-showroom{
+    font-size: 11px !important;
+}
+.incl{
+    font-size: 12px !important;
+}
+.new-delhi{
+    font-size: 10px !important;
+    margin-right: 7px;
+}
+.rate{
+    font-size: 23px;
+}
+.rate2{
+    font-size: 20px;
+}
 }
