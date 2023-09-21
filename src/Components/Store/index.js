@@ -14,17 +14,17 @@ import Scooty from "../../assets/scooty.png";
 import Scooty2 from "../../assets/scooty2.png";
 
 function Store() {
-  const [selectedColor, setSelectedColor] = useState("gray");
+  const [selectedColor, setSelectedColor] = useState("SparklingGreen");
 
   const scootyImages = {
-    blue: Scooty2,
-    gray: Scooty,
-    darkBlue: Scooty2,
-    skyBlue: Scooty,
-    lightSkyBlue: Scooty2,
-    red: Scooty,
-    white: Scooty2,
-    yellow: Scooty,
+    Blue: Scooty2,
+    SparklingGreen: Scooty,
+    DarkBlue: Scooty2,
+    SkyBlue: Scooty,
+    LightSkyBlue: Scooty2,
+    Red: Scooty,
+    White: Scooty2,
+    Yellow: Scooty,
   };
 
   const handleColorSelection = (color) => {
@@ -40,8 +40,8 @@ function Store() {
               <div className="d-flex justify-content-between align-items-center">
                 <div className="storie">Storie</div>
                 <div className="d-flex justify-content-center align-items-center">
-                  <div className="color"></div> <div>Sparkling Green</div>
-                </div>
+                <div className={`default ${selectedColor}`}></div> {selectedColor}
+            </div>
               </div>
               <hr className="mt-4" />
               <Col className="d-flex justify-content-center align-items-center mt-5">
@@ -106,7 +106,7 @@ function Store() {
                     <FiCheck size={25} className="check-icon" />
                     <div>
                       <span className="storie">Storie</span> <br />
-                      <span className="storie2">Sparkling Green</span>
+                      <span className="storie2"> {selectedColor}</span>
                     </div>
                   </div>
 
@@ -119,35 +119,35 @@ function Store() {
                 <div className="d-flex justify-content-between mt-5">
                   <div
                     className="picked-color selected-gray"
-                    onClick={() => handleColorSelection("gray")}
+                    onClick={() => handleColorSelection("SparklingGreen")}
                   ></div>
                   <div
                     className="picked-color selected-blue "
-                    onClick={() => handleColorSelection("blue")}
+                    onClick={() => handleColorSelection("Blue")}
                   ></div>
                   <div
                     className="picked-color selected-dark-blue"
-                    onClick={() => handleColorSelection("darkBlue")}
+                    onClick={() => handleColorSelection("DarkBlue")}
                   ></div>
                   <div
                     className="picked-color selected-sky-blue"
-                    onClick={() => handleColorSelection("skyBlue")}
+                    onClick={() => handleColorSelection("SkyBlue")}
                   ></div>
                   <div
                     className="picked-color selected-light-sky-blue"
-                    onClick={() => handleColorSelection("lightSkyBlue")}
+                    onClick={() => handleColorSelection("LightSkyBlue")}
                   ></div>
                   <div
                     className="picked-color selected-red"
-                    onClick={() => handleColorSelection("red")}
+                    onClick={() => handleColorSelection("Red")}
                   ></div>
                   <div
                     className="picked-color selected-white"
-                    onClick={() => handleColorSelection("white")}
+                    onClick={() => handleColorSelection("White")}
                   ></div>
                   <div
                     className="picked-color selected-yellow"
-                    onClick={() => handleColorSelection("yellow")}
+                    onClick={() => handleColorSelection("Yellow")}
                   ></div>
                 </div>
               </Card>
